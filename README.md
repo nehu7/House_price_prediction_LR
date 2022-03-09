@@ -13,15 +13,20 @@
 - The dataset "train.csv" that is being used contains 81 columns and 1460 records
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The target variale is the sale price of houses. The data given in the dataset was cleaned and checked for effect on the sale price. Business metrics were derived using available features.
+- Certain objective variables with high skewness were removed.
+- RFE was used to get the 50 most significant variables.
+- Linear, Ridge and Lasso regressions were implemented on the dataset.Lasso worked better than Ridge on the dataset
+- Features like BsmtFullBath, OverallCond, MasVnrArea, HeatingQC, OverallQual has significant affect on the SalePrice
+
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas - version 1.2.4
+- numpy - version 1.20.1
+- seaborn - version 0.11.1
+- matplotlib - version 3.3.4
+- statsmodels.api - version 0.12.2
+- sklearn - version 0.24.1
 
 ## Acknowledgements
 - This project was inspired by Upgrad
